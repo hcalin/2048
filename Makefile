@@ -14,8 +14,6 @@ NAME = game_2048
 
 CC=gcc
 
-CFLAGS=
-
 RM=rm -f
 
 SRC=main_menu.c game_start.c eval_map.c matrix_calculus.c
@@ -23,7 +21,7 @@ SRC=main_menu.c game_start.c eval_map.c matrix_calculus.c
 OBJ=$(SRC:.c=.o)
 
 $(NAME): 
-	$(CC) $(CFLAGS) -c $(SRC)
+	$(CC) -c $(SRC)
 	$(CC) $(OBJ)  -lncurses -o $(NAME)
 
 all: $(NAME)
