@@ -9,4 +9,4 @@
 Features will be added with time.
 Download, 'make' and have fun :)
 
-![42](https://i.imgsafe.org/b8e65c95af.png)
+![img](https://i.imgsafe.org/b8e65c95af.png)
